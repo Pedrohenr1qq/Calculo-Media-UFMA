@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Calculadora de Média - UFMA
+Um projeto de calculadora de média com base na no calculo feito pela Universidade Federal do Maranhão (UFMA). Feito utilizando React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Baixando o projeto
 
-## Available Scripts
+### Requisitos
+ - Ter um computador
+ - Ter alguma IDE instalada, como o VS Code
+ - Baixar o arquivo .zip ou fazer um `git clone` do source-code do programa
 
-In the project directory, you can run:
+### Iniciando o Projeto
+ - Abra o programa baixado na sua IDE.
+ - Entre na pasta `src`
+ - Abra o terminal e digite o comando `npm start`
 
-### `npm start`
+## Calculo da Média
+Na UFMA, cada disciplina/cadeira possui 3 notas principais. 
+A média é calculada com base nessas 3 notas. <br>
+Caso o aluno atinja média igual ou superior a 7, ele está aprovado nessa disciplina. <br>
+Caso contrário, o aluno pode fazer uma prova de reposição, para substituir sua menor nota. <br> 
+Feita a prova de reposição, é calculada uma nova média. <br>
+Se a média ainda for menor que 7, o aluno pode fazer a prova final. <br>
+Feita a prova final, é feita a média entre a média anterior e a prova final. <br>
+Se essa nova média não for maior ou igual que 6, o aluno fica reprovado na disciplina.
+Caso contrário, ele está aprovado
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
