@@ -1,0 +1,15 @@
+.progress-bar{
+    margin-top: 15px;
+    width: 250px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #EEEEEE   ;
+  }
+  
+  #loader{
+    width: 30%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #222;
+    transition: 0.8s;
+  }

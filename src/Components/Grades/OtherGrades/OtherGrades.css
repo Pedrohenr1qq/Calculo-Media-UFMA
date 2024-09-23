@@ -1,0 +1,16 @@
+.other-grades{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .label-other-grades {
+    width: 100px;
+  }
+  
+  .input-other-grades{
+    margin-left: 30px;
+    height: 25px;
+    width: 45px;
+  }
+  

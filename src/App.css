@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+/*
+  =========================================== MAIN ======================================
+*/
+
+.App-main{
+  height: 800px;
+  margin-top: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*
+ ---------------------------------- GET-DATAS----------------------------
+*/
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.get-datas{
+  height: 350px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.get-datas form{
+  width: 300px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #D9D9D9;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-itens{
+  display: flex;
+  height: 55px;
+}
+
+.form-itens input{
+  border-radius: 5px;
+}
+
+.form-itens:not(:last-child){
+  margin-bottom: 10px;
+}
+
+.grades{
+  display: flex;
+  height: 100%;
+  width: 100%;
 }

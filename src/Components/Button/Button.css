@@ -1,0 +1,14 @@
+.div-btt{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .div-btt button{
+    width: 100px;
+    border-radius: 15px;
+    font-size: 1.1em; 
+    background-color: black;
+    color: white;
+    cursor:pointer;
+  }

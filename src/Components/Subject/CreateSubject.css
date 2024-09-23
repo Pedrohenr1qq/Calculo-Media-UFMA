@@ -1,0 +1,10 @@
+.subject{
+    width: 100%;
+}
+  
+.subject input{
+    margin-top: 5px;
+    height: 18px;
+    width: 230px;
+}
+  
