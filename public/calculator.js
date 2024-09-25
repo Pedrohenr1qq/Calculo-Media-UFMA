@@ -31,7 +31,7 @@ window.onload = () => {
         if(hasFinalTest) final_average = computeFinalTest(average);
         else final_average = average;
 
-        if(subject == "") final_average = -1;
+        if(subject == "") final_average = -5;
 
         //Se os dados estiverem errados, o valor de "final_average" é negativo. Caso seja negativo, mostra que tem algo errado. Mostra o resultado normalmente
         if(final_average > 0){
@@ -42,6 +42,11 @@ window.onload = () => {
             document.getElementById('grade-phrase').innerHTML = (`${message} em ${subject}`);
             document.getElementById('grade-value').innerHTML = final_average.toFixed(1);
         }
+        else if(final_average = -5){
+            document.getElementById('grade-phrase').innerHTML = "Ops! Você esqueceu o nome da disciplina!";
+
+        }
+
         else{
             document.getElementById('grade-phrase').innerHTML = "Ops! Você colocou alguma coisa errada!";
         }
