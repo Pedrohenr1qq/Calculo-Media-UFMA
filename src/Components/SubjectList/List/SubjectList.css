@@ -1,0 +1,22 @@
+.container{
+    text-align: center;
+}
+
+.list{
+    width: 100%;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.list h2{
+    text-align: center;
+}
+
+.subject-list{
+    text-align: left;
+    width: 100%;
+    list-style-type: none;
+    padding-left: 5px;
+
+}
+

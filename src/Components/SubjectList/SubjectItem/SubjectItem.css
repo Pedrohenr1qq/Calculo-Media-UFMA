@@ -1,0 +1,8 @@
+.subject-item{
+    width: 350px;
+    text-decoration: none;
+    border: solid 3px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px;
+}

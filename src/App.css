@@ -3,6 +3,9 @@
 */
 
 .App-main{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 200px;
   height: 800px;
   margin-top: 20px;
 }
@@ -10,20 +13,10 @@
 /*
  ---------------------------------- GET-DATAS----------------------------
 */
-
-
-.get-datas{
-  height: 350px;
-  display: flex;
+.Calculator{
   justify-content: center;
 }
 
-.get-datas form{
-  width: 300px;
-  padding: 10px;
-  border-radius: 15px;
-  background-color: #D9D9D9;
-}
 
 .form-itens{
   display: flex;
@@ -42,4 +35,18 @@
   display: flex;
   height: 100%;
   width: 100%;
+}
+
+.div-btt{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/*
+ ---------------------------------- SHOW-RESULTS ----------------------------
+*/
+
+.show-results{
+  margin-top: 50px;
 }

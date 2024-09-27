@@ -1,10 +1,7 @@
 .grade:not(:last-child){
     margin-right: 55px;
   }
-  
-  .grade input{
-    margin-top: 5px;
-    height: 25px;
-    width: 45px;
-  }
-  
+
+.grade input{
+  margin-top: 5px;
+}

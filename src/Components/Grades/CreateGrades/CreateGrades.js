@@ -1,10 +1,11 @@
 import './CreateGrades.css'
+import Grade from '../../InputGrade/InputGrade';
 
-function CreateGrade({index}){
+function CreateGrade({id}){
     return(
       <div className = "grade">
-        <label htmlFor={index} >Nota: {index}:</label><br/>
-        <input type="text" id={index}/>
+        <label htmlFor={id}>Nota {id}:</label> 
+        <Grade type="text" index={id}/>
       </div>
     );
   }

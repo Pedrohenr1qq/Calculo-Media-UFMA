@@ -1,10 +1,13 @@
 import './Button.css'
 
-function Button(props){
+function Button({name, func, type}){
     return(
-        <div className="div-btt">
-            <button id="Btt">{props.name}</button>
-        </div>
+            <button className="button"  type={type} id="Btt" onClick={(event)=>{
+                event.preventDefault();
+                func();
+            }}
+            >{name}</button>
+
     );
 }
 

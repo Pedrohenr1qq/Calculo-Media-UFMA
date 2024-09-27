@@ -1,7 +1,8 @@
 import './OtherGrades.css'
+import Grade from '../../InputGrade/InputGrade';
 
 function OtherGrades({name, option, index}){
-    let radioYes = `ỳes-${option}`;
+    let radioYes = `yes-${option}`;
     let radioNo = `no-${option}`;
     return (
         <div className="other-grades">
@@ -9,9 +10,9 @@ function OtherGrades({name, option, index}){
             <input type="radio" name={option} id= {radioYes}/>
             <label htmlFor={radioYes} >Sim</label>
             <input type="radio" name={option} id= {radioNo}/>
-            <label htmlFor= {radioNo} >Não</label>
+            <label htmlFor= {radioNo} className="last-one-label">Não</label>
 
-            <input type="text" id={index} className="input-other-grades"/>
+            <Grade type="text" index={index} id="grade" />
         </div>
     );
 }
