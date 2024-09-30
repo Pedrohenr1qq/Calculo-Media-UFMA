@@ -1,0 +1,12 @@
+.form-itens{
+    display: flex;
+    height: 55px;
+}
+  
+.form-itens input{
+    border-radius: 5px;
+}
+  
+.form-itens:not(:last-child){
+    margin-bottom: 10px;
+}

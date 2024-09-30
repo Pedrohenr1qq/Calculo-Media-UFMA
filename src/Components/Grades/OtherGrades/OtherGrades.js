@@ -7,10 +7,10 @@ function OtherGrades({name, option, index}){
     return (
         <div className="other-grades">
             <label className="label-other-grades">{name}:</label>
-            <input type="radio" name={option} id= {radioYes}/>
+            <input type="radio" name={option} id= {radioYes} value="yes"/>
             <label htmlFor={radioYes} >Sim</label>
             <input type="radio" name={option} id= {radioNo}/>
-            <label htmlFor= {radioNo} className="last-one-label">Não</label>
+            <label htmlFor= {radioNo} className="last-one-label" value="no">Não</label>
 
             <Grade type="text" index={index} id="grade" />
         </div>

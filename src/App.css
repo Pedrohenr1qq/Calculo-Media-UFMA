@@ -1,3 +1,11 @@
+
+body{
+  background-image: url('./images/img-ufma.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
 /*
   =========================================== MAIN ======================================
 */
@@ -37,16 +45,25 @@
   width: 100%;
 }
 
-.div-btt{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-}
-
 /*
  ---------------------------------- SHOW-RESULTS ----------------------------
 */
 
 .show-results{
   margin-top: 50px;
+}
+
+/*
+  -------------------------------- SUBJECT-LIST -----------------------------
+*/
+
+
+.remove-input{
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.remove-input input{
+  width: 100%;
 }

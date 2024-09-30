@@ -1,6 +1,6 @@
 import './Footer.css'
-import githubIcon from './github_icon.png'
-import linkedinIcon from './linkedin-icon.png'
+import githubIcon from './imgs-footer/github_icon.png'
+import linkedinIcon from './imgs-footer/linkedin-icon.png'
 
 function CreateFooter(){
     return (

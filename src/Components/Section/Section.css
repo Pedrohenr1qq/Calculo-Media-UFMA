@@ -1,9 +1,8 @@
 section{
     width: 300px;
     height: 350px;
-    display: flex;
     justify-content: center;
-    background-color: #D9D9D9;
+    background-color: #7c7c7c;
     padding: 10px;
     border-radius: 15px;
   }

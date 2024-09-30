@@ -1,4 +1,10 @@
-.button{
+.div-btt{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.div-btt button{
   width: 100px;
   height: 60px;
   border-radius: 15px;
@@ -8,7 +14,7 @@
   cursor:pointer;
 }
 
-.button:hover{
+.div-btt button:hover{
   width: 105px;
   height: 65px;
   font-size: 1.05em;
